@@ -1,0 +1,29 @@
+{
+  "name": "graph-tests",
+  "version": "1.0.0",
+  "description": "The graph db tests, Neo4j",
+  "main": "service.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadimri/Neo4jTests.git"
+  },
+  "author": "vadimri",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/vadimri/Neo4jTests/issues"
+  },
+  "homepage": "https://github.com/vadimri/Neo4jTests#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "neo4j-driver": "^1.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-register": "^6.24.1"
+  }
+}
